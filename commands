@@ -1,0 +1,18 @@
+Commands:
+
+source virtual_enyvs/gui_python/bin/activate
+git clone
+git push
+git add
+git commit -m " "
+gedit ~/.ssh/config
+sudo usermod -aG vboxsf vboxuser
+cd ~/.ssh
+ls -a ~/.
+View SSH Key: cat ~/.ssh/id_rsa.pub
+ssh-keygen
+
+Host github.com
+ Hostname ssh.github.com
+ Port 443
+
